@@ -1,0 +1,202 @@
+/*CSS Reset*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+/*Font-colors*/
+.txtWhite {
+	color: #FFFFFF;
+}
+
+.txtBlack {
+	color:  #000000;
+}
+
+.text-stroke {
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: white;
+}
+
+/*Text-Sizes*/
+.txt-size-35 {
+	font-size: 35px;
+}
+.txt-size-40 {
+	font-size: 40px;
+}
+
+/*Spacings*/
+
+.pad-l-15 {
+	padding-left: 15px;
+}
+
+.pad-r-10 {
+	padding-right: 10px;
+}
+
+.margin-t-50 {
+	margin-top: 50px;
+}
+.margin-l-15 {
+	margin-left: 15px;
+}
+
+.w-80 {
+	width:  80px;
+}
+.w-200 {
+	width:  200px;
+}
+
+
+
+/*Nav*/
+.nav-bg {
+	background-color:  #042630;
+}
+
+.welcome-banner {
+	background-color: #4c7273;
+
+}
+
+.navbar-brand {
+	font-size: 17px;
+}
+
+.nav-link.active,
+.nav-link:hover,
+.navbar-brand:hover {
+	font-size: 25px;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: white;
+}
+
+.navbar-brand:hover {
+	color: ;
+}
+
+
+.navbar-toggler {
+	color: #FFFFFF;
+	border: 3px solid #FFFFFF;
+}
+
+
+
+/*Footer*/
+
+.footer {
+	background-color: #d0d6d6;
+}
+
+/*Landing Page*/
+
+.home {
+	background-image: url("./images/home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*Landing Page*/
+
+/*Projects*/
+.bg-projects {
+	background-color: #b3cde4;
+}
+
+.text-project {
+	color: #001b2e;
+}
+
+/*Tools*/
+.bg-tools {
+	background-color: #041421;
+}
+
+.tool-card {
+	height: 130px;
+	width: 60px;
+	transition: transform .2s;
+	margin:  5px;
+}
+
+.tool-card-image {
+	width: 29%;
+}
+
+
+/*Contact*/
+.bg-contact {
+	background-color: #1d3f58;
+}
+
+.contact {
+	font-family: "Seaweed Script", cursive;
+	    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: white;
+}
+
+.maps {
+	width:  100%;
+	height: 400px;
+}
+
+.contact-form {
+	background-color: #042630;
+}
+
+
+.btn:hover,
+.btn:active {
+	background-color: darkgray !important;
+}
+
+/*Mobile*/
+@media (min-width:  320px) {
+
+}
+
+/*Tablet*/
+@media (min-width:  768px) {
+	.txt-size-md-35 {
+		font-size: 35px;
+	}
+
+	.txt-size-md-40 {
+		font-size: 40px;
+	}
+	.w-md-300 {
+		width: 300px;
+	}
+
+	.maps {
+		width:  350px;
+	}
+
+	.tool-card-image {
+	width: 100%;
+}
+
+}
+
+/*Desktop*/
+@media(min-width: 992px) {
+	.maps {
+		width:  400px;
+	}
+	
+}
+
+@media (min-width: 1200px) {
+	.maps {
+		width:  575px;
+	}
+
+}
+
